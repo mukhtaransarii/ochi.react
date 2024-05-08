@@ -14,7 +14,7 @@ export default function Eye() {
   })
   return (
     <div className="w-full h-fit relative">
-      <img src="../../public/EyeBackgroung.jpg" alt=""/>
+      <img src="https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg" alt=""/>
       <div class="eyeBackground flex gap-[5vw]  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div class="eye h-[20vw] w-[20vw] bg-white rounded-[50%] grid place-items-center">
             <div class="eye h-[12.5vw] w-[12.5vw] bg-black rounded-[50%] relative">
