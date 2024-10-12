@@ -19,7 +19,7 @@ export default function Navbar() {
   }
   return (
     <nav ref={NAVBACKGROUND} className="fixed z-[999] backdrop-blur-[8px] bg-[#ffffff2c] top-0 left-0 h-16 w-full  flex justify-between items-center px-8">
-      <div className="flex items-center"><img src="../public/logo.png" className="w-9 h-9"/> <h4 className="text-[11px] font-semibold">Mukhtar Alam <mark className="bg-transparent font-normal">BBS</mark></h4></div>
+      <div className="flex items-center"><h4 className="text-[20px] font-bold">BBS</h4></div>
       <div ref={NavRef} class="NAVLIST link flex gap-3">
      
       <Link to="/" onClick={HIDE}><mark className="md:hidden">01</mark>Home</Link>
